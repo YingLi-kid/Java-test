@@ -1,20 +1,17 @@
 package com.example;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
+    public void shouldAddTwoNumbers()
     {
-        assertTrue( true );
+        assertEquals(30, App.add(10, 20));
     }
 }
